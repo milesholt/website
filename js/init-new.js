@@ -2,7 +2,7 @@
 'use strict';
 
 //disable animation extend plugin on everything by default, we only need this for grid_wrap in ToggleMenu function, with use of useCSSTransitions property.
-$.setDisabledByDefault(true); //this option has been created by plugin
+//$.setDisabledByDefault(true); //this option has been created by plugin
 
 var player;
 
