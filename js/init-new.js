@@ -607,7 +607,7 @@ function navigatePage(alias,template){
 	
 	switch(template){
 		case 'article':	
-			toggleGrid();
+			if(!grid_wrap.hasClass('on')) toggleGrid();
 			closePage(project);
 			loadPage(page);				
 		break;
